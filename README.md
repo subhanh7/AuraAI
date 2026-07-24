@@ -216,6 +216,10 @@ Unit test results:
 
 The repository contains a system design document describing how user history, settings, and persona can be migrated securely between devices.
 
+screenshot :
+
+<img width="1221" height="1288" alt="System design" src="https://github.com/user-attachments/assets/d569e220-4455-469c-93d6-f4ca5c22b896" />
+
 Location:
 
 ```
