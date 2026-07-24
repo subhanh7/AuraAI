@@ -171,16 +171,28 @@ app/
 - Canvas-based custom UI animations
 
 ---
-
 # Data Persistence
 
-User data is persisted using:
+AuraAI follows an offline-first approach by storing user and conversation data locally before any synchronization occurs.
 
-- Preferences DataStore
-- Room Database
+### Preferences DataStore
+Used to persist lightweight application preferences, including:
 
-The application restores user state automatically after relaunch without losing onboarding progress.
+- User profile information
+- Selected personality traits
+- Onboarding completion status
+- Assistant preferences
 
+### Room Database
+Stores structured application data including:
+
+- Chat messages
+- Conversation metadata
+- Reminder information
+
+Room integrates with Kotlin Flow, enabling the UI to react automatically whenever local data changes. This ensures conversations remain available even after the application is restarted.
+
+The combination of Room and DataStore provides fast local access, improved reliability, and a seamless user experience without depending on continuous network connectivity.
 ---
 
 # Offline Sync
