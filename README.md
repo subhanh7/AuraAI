@@ -268,21 +268,31 @@ Open the project in Android Studio and run it on an emulator or physical Android
 
 ---
 
-# Screenshots
+# 📸 Screenshots
 
-Add screenshots inside:
+## Onboarding
 
-```
-docs/screenshots/
-```
+<img width="629" height="866" alt="Screenshot 2026-07-24 at 8 45 55 PM" src="https://github.com/user-attachments/assets/49bfcefb-9af7-480a-a571-26b5214de1e1" />
 
-Suggested screenshots:
+---
 
-- Onboarding
-- Personality Selection
-- Home Screen
-- Chat Screen
-- Aura Animation
+## Personality Selection
+
+<img width="617" height="861" alt="Screenshot 2026-07-24 at 8 46 33 PM" src="https://github.com/user-attachments/assets/1194b444-7a2a-4632-87fb-500606d3aed6" />
+
+<img width="617" height="853" alt="Screenshot 2026-07-24 at 8 46 47 PM" src="https://github.com/user-attachments/assets/bf75496f-78cd-47e3-a93c-0ff0f1258cf0" />
+
+---
+
+## Home Screen
+
+<img width="684" height="874" alt="Screenshot 2026-07-24 at 8 47 08 PM" src="https://github.com/user-attachments/assets/71e14284-2b62-4f06-84cd-faebf299aba1" />
+
+---
+
+## Chat Screen
+
+<img width="592" height="854" alt="Screenshot 2026-07-24 at 8 47 21 PM" src="https://github.com/user-attachments/assets/2130fe9d-7476-4960-bacf-700747a179c2" />
 
 ---
 
