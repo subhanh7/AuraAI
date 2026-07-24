@@ -193,18 +193,22 @@ Stores structured application data including:
 Room integrates with Kotlin Flow, enabling the UI to react automatically whenever local data changes. This ensures conversations remain available even after the application is restarted.
 
 The combination of Room and DataStore provides fast local access, improved reliability, and a seamless user experience without depending on continuous network connectivity.
+
 ---
 
-# Offline Sync
+# Offline Synchronization
 
-Synchronization is handled using WorkManager.
+Background synchronization is implemented using Android WorkManager to ensure reliable execution even when the application is closed.
 
-Features:
+### Synchronization Strategy
 
-- Runs only when network is available
-- Syncs changed records
-- Local conflict resolution
-- Observable sync state
+- Executes only when network connectivity is available
+- Synchronizes only modified local records
+- Prevents duplicate synchronization tasks
+- Maintains data consistency during intermittent connectivity
+- Supports future cloud synchronization with minimal architectural changes
+
+This offline-first design improves application responsiveness while reducing unnecessary network usage and ensuring users can continue interacting with the application without an active internet connection.
 
 ---
 
