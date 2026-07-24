@@ -1,0 +1,26 @@
+# Build
+/build
+**/build/
+app/build/
+
+# Gradle
+.gradle/
+
+# Android Studio / IDE
+.idea/
+*.iml
+
+# Local environment
+local.properties
+
+# macOS
+.DS_Store
+
+# Captures & Logs
+/captures
+*.log
+
+# C/C++ Build
+.externalNativeBuild
+.cxx
+.vscode/
