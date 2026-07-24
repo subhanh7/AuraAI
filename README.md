@@ -208,9 +208,7 @@ Covered scenarios:
 
 Unit test results:
 
-```
-<img width="1512" height="982" alt="Screenshot 2026-07-25 at 12 30 22 AM" src="https://github.com/user-attachments/assets/cbaa62be-61c5-49dc-af73-0915d726d82e" />
-```
+<img width="1512" height="982" alt="Screenshot 2026-07-25 at 12 30 22 AM" src="https://github.com/user-attachments/assets/8ffd6eb1-608c-49ae-8a35-c5aea65c6d53" />
 
 ---
 
